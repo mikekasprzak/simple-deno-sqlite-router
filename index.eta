@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<% for (const person of it.data) { %>
+<p><%= person[0] %> - <%= person[1] %></p>
+<% } %>
+
+<h1>Another Header</h1>
+<% for (const person of it.data) { %>
+  <%~ "<p>" + person[0] + " - " + person[1] + "</p>" %>
+<% } %>
+
+<% if (it.searchParams.has("thing")) { %>
+  <p>Thing: <%= it.searchParams.get("thing") %></p>
+  <p><a href="?">Click me</a></p>
+<% } %>
+<% else { %>
+  <p><a href="?thing=hat">Click me</a></p>
+<% } %>
+
+</body>
+</html> 

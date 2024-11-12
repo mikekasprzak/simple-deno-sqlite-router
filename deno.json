@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-all main.ts"
+  },
+  "imports": {
+    "@eta-dev/eta": "jsr:@eta-dev/eta@^3.5.0",
+    "@oak/oak": "jsr:@oak/oak@^17.1.3",
+    "@sqlite": "https://deno.land/x/sqlite@v3.9.1/mod.ts"
+  }
+}
