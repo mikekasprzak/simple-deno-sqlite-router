@@ -5,6 +5,7 @@
   "imports": {
     "@eta-dev/eta": "jsr:@eta-dev/eta@^3.5.0",
     "@oak/oak": "jsr:@oak/oak@^17.1.3",
-    "@sqlite": "https://deno.land/x/sqlite@v3.9.1/mod.ts"
+    "@sqlite": "https://deno.land/x/sqlite@v3.9.1/mod.ts",
+    "@xml": "https://deno.land/x/xml@6.0.1/mod.ts"
   }
 }

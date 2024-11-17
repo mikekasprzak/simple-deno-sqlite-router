@@ -1,0 +1,9 @@
+  <?xml version="1.0"?>
+  <root>
+    <text>hello</text>
+    <array>world</array>
+    <array>monde</array>
+    <array>世界</array>
+    <array>🌏</array>
+    <complex attribute="value">content</complex>
+  </root>
